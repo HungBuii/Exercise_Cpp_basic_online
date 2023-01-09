@@ -1,0 +1,3 @@
+﻿  Ex_5.11.cpp
+D:\C++ vunguyencoder\Ex_5.11\Ex_5.11\Ex_5.11.cpp(24,26): warning C4804: '<': unsafe use of type 'bool' in operation
+  Ex_5.11.vcxproj -> D:\C++ vunguyencoder\Ex_5.11\x64\Debug\Ex_5.11.exe

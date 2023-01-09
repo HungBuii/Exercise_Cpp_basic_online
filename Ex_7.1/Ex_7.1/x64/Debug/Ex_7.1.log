@@ -1,0 +1,7 @@
+﻿  Ex_7.1.cpp
+D:\C++ vunguyencoder\Ex_7.1\Ex_7.1\Ex_7.1.cpp(5,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\C++ vunguyencoder\Ex_7.1\Ex_7.1\Ex_7.1.cpp(10,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\C++ vunguyencoder\Ex_7.1\Ex_7.1\Ex_7.1.cpp(13,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\C++ vunguyencoder\Ex_7.1\Ex_7.1\Ex_7.1.cpp(16,16): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\C++ vunguyencoder\Ex_7.1\Ex_7.1\Ex_7.1.cpp(18): warning C4715: 'max_number': not all control paths return a value
+  Ex_7.1.vcxproj -> D:\C++ vunguyencoder\Ex_7.1\x64\Debug\Ex_7.1.exe

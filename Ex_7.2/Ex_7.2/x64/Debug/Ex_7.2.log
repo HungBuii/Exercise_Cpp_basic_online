@@ -1,0 +1,3 @@
+﻿  Ex_7.2.cpp
+D:\C++ vunguyencoder\Ex_7.2\Ex_7.2\Ex_7.2.cpp(6,12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Ex_7.2.vcxproj -> D:\C++ vunguyencoder\Ex_7.2\x64\Debug\Ex_7.2.exe
