@@ -14,7 +14,8 @@ float program_2(float a2, float b2, float h2) {
 
 float program_3(float a3, float b3, float h3) {
     float s3 = 0;
-    s3 = ( (a3 + b3) * 2 * h3 ) + (2 * a3 * b3);
+    /*s3 = ( (a3 + b3) * 2 * h3 ) + (2 * a3 * b3);*/
+    s3 = program_2(a3, b3, h3) + (2 * a3 * b3);
     return s3;
 }
 
