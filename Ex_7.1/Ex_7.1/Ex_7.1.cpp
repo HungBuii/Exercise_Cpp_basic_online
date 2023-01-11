@@ -6,6 +6,20 @@ int average(float x, float y, float z) {
 }
 
 int max_number(float x, float y, float z) {
+    //	if (x - y - z >= 0) {
+//		return x;
+//	}
+//	else if (y - x - z >= 0) {
+//		return y;
+//	}
+//	else if (z - y - x >= 0) {
+//		return z;
+//	}
+
+//	float max = x;
+//	if (y > max) max = y;
+//	if (z > max) max = z;
+//	return max;
     if (z > x && z > y) {
         return z;
     }
