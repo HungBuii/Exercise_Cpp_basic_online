@@ -15,12 +15,25 @@ int main()
         std::cout << a[i] << std::endl;
     }
 
+    /*std::cout << "Ket qua 1: " << endl;
+    for (int x : a) {
+        std::cout << x << endl;
+    }*/
+
     // Result 2
     std::cout << "Result 2: ";
     for (int i = 0; i < length; i++) {
         if (i < 4) std::cout << a[i] << ", ";
         else if (i >= length-1) std::cout << a[i] << std::endl;
     }
+
+    /*for (int i = 0; i < 5; i++) {
+        cout << a[i];
+        for (int j = 0; j < 4; j++) {
+            if (i == j) cout << ", ";
+        }
+    }
+    std::cout << endl;*/
 
     // Result 3
     std::cout << "Result 3: ";
@@ -32,6 +45,11 @@ int main()
     for (int i = 0; i < length; i++) {
         std::cout << a[i] << " ";
     }
+
+    /*std::cout << "Ket qua 3: " << endl;
+    for (int i = 4; i >= 0; i--) {
+        cout << a[i] << " ";
+    }*/
 
 }
 
