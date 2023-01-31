@@ -22,8 +22,21 @@ void show_array(int *b) { // hoac co the viet(int b[])
 		std::cout << b[i] << " "; 
 		// day cung la truong hop ngoai le
 		// khong can phai viet dau * boi vi
-		// con tro b dang tro vao vung array a (b[i] = a[i])
-		// nen b[i] van co the duoc dung de lay gia tri cu the
+		// con tro b dang lien ket voi vung array a 
+		// nen con tro b se tro vao phan tu dau tien cua mang a (a[0]) va 
+		// tu do tim dia chi cua phan tu ke tiep nen b[i] van co the duoc dung de lay gia tri cu the.
+		// Ngoai ra thi con tro ki hieu * va array ki hieu [] khong the di cung voi nhau
+		// neu muon lay gia tri cu the.
+		
+		// vi du: 
+		// int a[3] = {1, 2, 3};
+		// int* p = a; 
+		// for (int i = 0; i < 3; i++) {
+		// cout << p[i] << " ";
+		// }
+		// a la dia chi gia tri dau tien cua mang a trong bo nho
+		// nen con tro p luc nay se tu dia chi cua dia chi dau tien va
+		// tim duoc dia chi phan tu tiep theo trong mang a 
 	}
 
 //	cout << b << " " << &b; 
@@ -33,7 +46,7 @@ void show_array(int *b) { // hoac co the viet(int b[])
 
 int main() {
 	int a[3] = {1, 2, 3};
-	show_array(a);
+	show_array(a); // a la dia chi gia tri dau tien trong mang a trong bo nho 
 	
 	
 }
