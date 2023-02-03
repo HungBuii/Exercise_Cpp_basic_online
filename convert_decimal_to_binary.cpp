@@ -13,7 +13,7 @@ long long Dec2Bin(int decimalNumber)
         ++p;
         decimalNumber /= 2;
     }
-    return binaryNumber; // cac so hoat dong nhu bo nho stack 
+    return binaryNumber; // cac so hoat dong nhu bo nho stack voi push, pop 
 }
 
 int main() {
