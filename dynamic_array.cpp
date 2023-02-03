@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int size = 3;
-    int* array = new int[size] {1, 2, 3};
+    int* array = new int[size] {1, 2, 3}; // dynamic array co the chinh sua duoc length cua mang
     
     int new_size = 6;
     int* resize = new int[new_size];
