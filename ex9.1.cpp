@@ -15,9 +15,8 @@ int program_2(char x) {
 }
 
 char program_3(char x) {
-	if ( (program_2(x) == 1) || (program_2(x) == -1) ) {
-		if (x == 'Z' || x == 'z' || x == '9') return x;
-		else return x + 1;
+	if ( (program_2(x+1) == 1) || (program_2(x+1) == -1) ) { // if ( program_2(x+1) || program_2(x+1) )
+		return x + 1;
 	}
 	return x;
 }
