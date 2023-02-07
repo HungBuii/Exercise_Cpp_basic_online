@@ -1,0 +1,23 @@
+- String khong phai la array va cung khong phai la pointer
+- String duoc tao va luu tren vung nho heap nen khac voi array la tuy y su dung bao nhieu bo nho cung duoc khong quan tam den kich co
+- Khi muon in ra ki tu bat ki trong string thi co the su dung chi so (index) nhu s[0],... giong array de in ra 
+- Vi du: 
+	std::string s = "Hung";
+	std::cout << s[0]; => s[0] se in ra cu the ki tu dau tien 
+	
+	std::cout << &s[0]; => in ra toan bo chuoi "Hung" chu khong phai la dia chi boi vi string khong phai la pointer
+	
+- Muon in ra dia chi cua tung ki tu thi su dung (int*)&s[0] hoac in ra dia chi cua string chua cac ki tu do la (int*)&s. Dia chi cua s va s[0], s[1] la khac nhau => giong array
+- String khong the gan voi pointer
+- String co the de cac ki tu len nhau
+	Vi du: std::string name = "Hung"
+		   name = "Linh"
+		   cout << name; => Linh
+- String co the cong cac string lai voi nhau
+	Vi du: std::string name_1 = "Hung"
+		   std::string name_2 = "ne"
+		   cout << (name_1 + " " + name_2); => Hung ne
+- Muon lay cac ki tu tu array sang string thi cong lai voi nhau
+	Vi du: for (int i = 0; i < s.length(); i++)
+				s1 += s[i]
+	String khong phai la array nen khong the la s1[i] = s[i] nen phai cong vao nhau de lay cac ki tu tu array khac
