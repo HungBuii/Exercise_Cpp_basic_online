@@ -7,3 +7,5 @@ Doremon|100|1.2|100|Nhat Ban
 Nobita|10|1.5|48|Japan
 Hung|21|1.65|20|Vietnam
 Ha|21|1.543|564|Vietnam
+
+Linh ne|21|1.65|41|Vietnam
